@@ -1,0 +1,14 @@
+body{
+    background-image: url("imagen.p2.png");
+    background-position: 60%;
+    background-position-x:center;
+}
+
+p{
+    color:black;
+    font-family:'Times New Roman';
+}
+h5{
+    color:black;
+font-family: Georgia;
+}
