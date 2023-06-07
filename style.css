@@ -1,20 +1,25 @@
 .calculadoraweb {
-  background-color: #ccc;
+  background-image: url("Logo_utm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #8cb5c4;
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #226596;
   border-radius: 5px;
   padding: 10px;
 }
 
 
 input[type="text"] {
+  background-color: #eff3f7;
   width: 90%;
   margin-bottom: 10px;
   padding: 10px;
   font-size: 20px;
-  border: 1px solid #fafafa;
+  border: 1px solid #226596;
   border-radius: 5px;
 }
 
@@ -29,7 +34,7 @@ button {
   font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #4caf50;
+  background-color: #283f5c ;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -44,6 +49,10 @@ button:active {
 }
 
 body {
+  background-image: url("Calculadora.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: center top;
   display: flex;
   justify-content: center;
   align-items: center;
